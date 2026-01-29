@@ -1,0 +1,68 @@
+# Data files (обычно большие и не хранятся в git)
+data/
+*.csv
+*.json
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.xlsx
+*.db
+*.sqlite
+
+# Конкретный тестовый ноутбук
+notebooks/test.ipynb
+
+# Временные/вспомогательные файлы Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints*
+__pycache__/
+
+# Виртуальные окружения
+venv/
+env/
+.venv/
+.env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+.cache/
+
+# Логи и дампы
+*.log
+*.dump
+*.dat
+
+# Модели ML (если они генерируются)
+models/
+*.model
+*.joblib
+
+# Конфиги с секретами
+config.yaml
+config.yml
+*.env
+.env.local
+secrets.ini
