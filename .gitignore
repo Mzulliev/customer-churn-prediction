@@ -1,16 +1,16 @@
 # Data files (обычно большие и не хранятся в git)
-data/
-*.csv
-*.json
-*.parquet
-*.feather
-*.h5
-*.hdf5
-*.pkl
-*.pickle
-*.xlsx
-*.db
-*.sqlite
+#data/
+#*.csv
+#*.json
+#*.parquet
+#*.feather
+#*.h5
+#*.hdf5
+#*.pkl
+#*.pickle
+#*.xlsx
+#*.db
+#*.sqlite
 
 # Конкретный тестовый ноутбук
 notebooks/test.ipynb
